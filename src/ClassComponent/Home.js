@@ -31,7 +31,7 @@ componentDidUpdate(prevPros){
         <h5 className='background text-center p-2 my-2'>{this.props.q}News Articles</h5>
         <div className="row">
          {
-          this.state.articles.map((item,index)=>{
+          this.state.articles?.map((item,index)=>{
             return<div key={index} className='col-xxl-2 col-lg-3 col-md-4 col-sm-6'>
               <NewsItem
               title={item.title}
