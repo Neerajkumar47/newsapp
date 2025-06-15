@@ -1,0 +1,65 @@
+.background{
+    background-color: #9b9bcfe0;
+}
+
+.mybtn:hover{ 
+    background-color: #7d7de3e0;
+}
+.card-title{
+    font-size: 15px;
+    height: 100px;
+}
+.card-text{
+    font-size: 14px;
+    height: 200px;
+}
+
+.card-text::-webkit-scrollbar{
+    display: none;
+}
+ .items{
+    display: flex;
+    justify-content: space-between;
+      margin-bottom: -25px;
+}
+.items p{
+    font-size: 13px;
+
+}
+
+@media only screen and(min-width:992px) and (max-width:1199){
+    .card-title{
+        height: 70px;
+    }
+    .card-text{
+        height: 150px;
+    }
+    
+}
+@media only screen and(min-width:768px) and (max-width:991){
+    .card-title{
+        height: 70px;
+    }
+    .card-text{
+        height: 150px;
+    }
+    
+}
+@media only screen and(min-width:576px) and (max-width:767){
+    .card-title{
+        height: 70px;
+    }
+    .card-text{
+        height: 150px;
+    }
+    
+}
+@media only screen and(min-width:0px) and (max-width:575){
+    .card-title{
+        height: 50px;
+    }
+    .card-text{
+        height: 90px;
+    }
+    
+}
