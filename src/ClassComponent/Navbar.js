@@ -77,7 +77,7 @@ export default class Navbar extends Component {
       <img src="https://images.vexels.com/content/144598/preview/breaking-news-banner-header-dc416c.png" height={500} className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src="https://thumbs.dreamstime.com/b/female-news-anchor-studio-asian-american-screens-background-101584998.jpg" height={500} className="d-block w-100" alt="..."/>
+      <img src="https://thumbs.dreamstime.com/b/female-news-anchor-studio-asian-american-screens-background-101584998.jpgc" height={500} className="d-block w-100" alt="..."/>
     </div>
   </div>
   <button className="carousel-control-prev slider-btn" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
